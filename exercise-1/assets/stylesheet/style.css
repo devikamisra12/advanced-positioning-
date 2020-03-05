@@ -74,7 +74,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
-     background-color: #3F88B4;
+    background-color: #3F88B4;
 }
 a {
     text-decoration: none;
@@ -147,17 +147,18 @@ main {
   padding: 70px;
   width: 25%;
   margin-left: 60px;
+  float: left;
 }
-.one {
-    float: left;
+/* .one {
+    
 }
 .two {
     float: left;
     
-}
+} */
 .three {
     float: left;
-    width: 26%;
+    /* width: 26%; */
     /* padding-top: 10px; */
 }
 
@@ -177,4 +178,17 @@ footer {
     font-weight: bold;
     color: rgb(233, 233, 52);
     /* padding: 20px; */
+}
+.btn-top {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 52);
+    color: black;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    text-align: center;
+    padding: 25px;
+
 }
